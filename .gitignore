@@ -1,0 +1,44 @@
+# -----------------------------------------------------------------------------
+# Drupal & Composer dependencies
+# -----------------------------------------------------------------------------
+/vendor/
+/web/core/
+/web/modules/contrib/
+/web/themes/contrib/
+/web/profiles/contrib/
+/web/libraries/
+
+# -----------------------------------------------------------------------------
+# User uploads and site-specific generated files
+# -----------------------------------------------------------------------------
+/web/sites/*/files/
+/web/sites/*/private/
+/web/sites/*/settings.local.php
+/web/sites/*/settings.php
+/web/sites/*/services.local.yml
+
+# Exception: keep default settings template if needed
+!/web/sites/default/default.settings.php
+!/web/sites/default/default.services.yml
+
+# -----------------------------------------------------------------------------
+# DDEV local configuration & temporary storage
+# -----------------------------------------------------------------------------
+/.ddev/*
+!/.ddev/config.yaml
+!/.ddev/docker-compose.*.yaml
+/.ddev/.env*
+/.ddev/db_snapshots/
+/.ddev/import-db/
+/.ddev/.downloads/
+
+# -----------------------------------------------------------------------------
+# OS & IDE temporary files
+# -----------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.bak
+*.tmp
