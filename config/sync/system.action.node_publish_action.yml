@@ -1,0 +1,13 @@
+uuid: 9a196ae0-eeae-4ba8-962f-b1b5df5200da
+langcode: sk
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: 2B9uF8NL5gutNKSdPRAhhAsDWFZZG1PJOBmx0aBGd_0
+id: node_publish_action
+label: 'Zverejniť obsah'
+type: node
+plugin: 'entity:publish_action:node'
+configuration: {  }

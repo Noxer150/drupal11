@@ -1,0 +1,20 @@
+uuid: 18a5614f-5bc1-431a-b641-b602a5fe4cad
+langcode: sk
+status: true
+dependencies:
+  theme:
+    - moja_tema
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: moja_tema_primary_admin_actions
+theme: moja_tema
+region: header
+weight: -7
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

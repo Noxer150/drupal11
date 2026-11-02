@@ -1,0 +1,25 @@
+uuid: 5f6634ca-b363-4db3-9684-7d05a93869e2
+langcode: sk
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_aktivny_pouzivatel
+    - node.type.article
+id: node.article.field_aktivny_pouzivatel
+field_name: field_aktivny_pouzivatel
+entity_type: node
+bundle: article
+label: 'Aktívny používateľ'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: views
+  handler_settings:
+    view:
+      view_name: aktivny_pouzivatel
+      display_name: entity_reference_1
+      arguments: {  }
+field_type: entity_reference

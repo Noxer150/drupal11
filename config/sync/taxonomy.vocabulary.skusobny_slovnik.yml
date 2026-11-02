@@ -1,0 +1,9 @@
+uuid: 62b20de2-c34f-492a-ac1c-49b8d3bca810
+langcode: sk
+status: true
+dependencies: {  }
+name: 'Skúšobný slovník'
+vid: skusobny_slovnik
+description: null
+weight: 0
+new_revision: false

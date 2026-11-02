@@ -1,0 +1,22 @@
+uuid: 77067862-e457-41d2-b4ef-19f05f460ddb
+langcode: sk
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bootstrap
+_core:
+  default_config_hash: CiBjSwgbxabxP53O64ow0A0qaiek4K_ypLQ-jg4Xfn0
+id: bootstrap_content
+theme: bootstrap
+region: content
+weight: -3
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Hlavný obsah stránky'
+  label_display: '0'
+  provider: system
+visibility: {  }

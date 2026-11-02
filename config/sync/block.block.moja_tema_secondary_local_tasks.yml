@@ -1,0 +1,22 @@
+uuid: 05ae8aaf-11d0-4a65-b29a-12ef6a1c3539
+langcode: sk
+status: false
+dependencies:
+  theme:
+    - moja_tema
+_core:
+  default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
+id: moja_tema_secondary_local_tasks
+theme: moja_tema
+region: header
+weight: -3
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Sekundárne karty'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

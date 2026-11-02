@@ -1,0 +1,11 @@
+uuid: 8ab89c25-b22c-41ea-a7ae-e42e0a53e3e3
+langcode: sk
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.skusobny_slovnik
+id: taxonomy_term.skusobny_slovnik
+target_entity_type_id: taxonomy_term
+target_bundle: skusobny_slovnik
+default_langcode: site_default
+language_alterable: false

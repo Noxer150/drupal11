@@ -1,0 +1,11 @@
+uuid: f1200b1a-4ee3-442f-9df3-2dd532a52f60
+langcode: sk
+status: true
+dependencies:
+  module:
+    - workbench_access
+id: section_association.token
+label: Token
+description: null
+targetEntityType: section_association
+cache: true

@@ -1,0 +1,13 @@
+uuid: 5d135ea2-4898-462f-ae67-91a9f0fcf6ef
+langcode: sk
+status: true
+dependencies:
+  module:
+    - comment
+_core:
+  default_config_hash: tWOIjSMobEWOFZddMkNqb9JySbOVwE1diC6NRqcfLTk
+id: comment_unpublish_action
+label: 'Nezverejnený komentár'
+type: comment
+plugin: 'entity:unpublish_action:comment'
+configuration: {  }

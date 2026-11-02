@@ -1,0 +1,22 @@
+uuid: b6a125f2-8858-42ce-a4a0-c9a1abd6c113
+langcode: sk
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - moja_tema
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: moja_tema_powered
+theme: moja_tema
+region: sidebar_first
+weight: -7
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Beží na Drupale'
+  label_display: '0'
+  provider: system
+visibility: {  }

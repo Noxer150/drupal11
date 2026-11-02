@@ -1,0 +1,11 @@
+uuid: 5f4e7ac5-bacd-4818-a2d4-7e0a3cbbc83f
+langcode: sk
+status: true
+dependencies:
+  module:
+    - node
+id: node.zobrazenie_pre_views
+label: 'Zobrazenie pre Views'
+description: null
+targetEntityType: node
+cache: true

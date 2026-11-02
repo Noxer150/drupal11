@@ -1,0 +1,16 @@
+uuid: 22869464-7c40-4c7d-a02e-ff75d882adde
+langcode: sk
+status: true
+dependencies:
+  enforced:
+    module:
+      - geolocation_demo
+_core:
+  default_config_hash: 0xGx-flFdi8RpwD-JDd21zXmmBHWJEj16N3C8z78PrM
+name: 'Geolocation Demo - Default Article'
+type: geolocation_default_article
+description: 'Geolocation Demo content type'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: false

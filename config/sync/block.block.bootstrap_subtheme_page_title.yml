@@ -1,0 +1,20 @@
+uuid: 35dedd8d-0a82-4090-9000-9ba23f890801
+langcode: sk
+status: true
+dependencies:
+  theme:
+    - bootstrap_subtheme
+_core:
+  default_config_hash: sz6KjJd2RGxMtPJ8v3NRighA07Rep6_nnt_y-S0Vc2M
+id: bootstrap_subtheme_page_title
+theme: bootstrap_subtheme
+region: content
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Názov stránky'
+  label_display: '0'
+  provider: core
+visibility: {  }

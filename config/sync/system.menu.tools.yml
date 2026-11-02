@@ -1,0 +1,10 @@
+uuid: c6950ab7-1fb5-410a-90c1-d88799399b95
+langcode: sk
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: BCM-vV1zzRaLHN18dqAR_CuGOj8AFJvTx7BKl_8Gcxc
+id: tools
+label: Nástroje
+description: 'User tool links, often added by modules'
+locked: true

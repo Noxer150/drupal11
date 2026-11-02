@@ -1,0 +1,22 @@
+uuid: b9cb67b2-12c0-4b88-b5e0-aa82b1127963
+langcode: sk
+status: false
+dependencies:
+  theme:
+    - moja_tema
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: moja_tema_primary_local_tasks
+theme: moja_tema
+region: header
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primárne karty'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

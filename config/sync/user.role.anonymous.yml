@@ -1,0 +1,33 @@
+uuid: 1d209873-0f55-422f-a982-b00dc436e4c0
+langcode: sk
+status: true
+dependencies:
+  config:
+    - filter.format.restricted_html
+    - node.type.article
+    - node.type.geolocation_default_article
+    - node.type.page
+  module:
+    - comment
+    - contact
+    - filter
+    - media
+    - node_view_permissions
+    - search
+    - system
+_core:
+  default_config_hash: 6WavjUYXIegP9AAg2zXGx54MWIVoomC3SZhNiqe-Dyk
+id: anonymous
+label: 'Anonymný používateľ'
+weight: 0
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'search content'
+  - 'use text format restricted_html'
+  - 'view any article content'
+  - 'view any geolocation_default_article content'
+  - 'view any page content'
+  - 'view media'

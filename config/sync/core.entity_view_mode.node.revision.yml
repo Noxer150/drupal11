@@ -1,0 +1,17 @@
+uuid: 33b351ca-4ae2-41e4-8adb-28dc62af0015
+langcode: sk
+status: false
+dependencies:
+  module:
+    - node
+  enforced:
+    module:
+      - ds_extras
+      - node
+_core:
+  default_config_hash: 9KZ3WmwficPZQW4KRu0DdKX2V9A1Xiz5LFFm2NHg4_A
+id: node.revision
+label: Revízia
+description: null
+targetEntityType: node
+cache: true

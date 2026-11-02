@@ -1,0 +1,20 @@
+uuid: c9382d08-bae8-48be-beda-be0340c47c39
+langcode: sk
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - moja_tema
+id: moja_tema_bezinadrupale_4
+theme: moja_tema
+region: footer_fourth
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Beží na Drupale'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: 228ab0d9-a183-4a06-86df-e2af0ef1826b
+langcode: sk
+status: true
+dependencies:
+  theme:
+    - moja_tema
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: moja_tema_page_title
+theme: moja_tema
+region: content
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Názov stránky'
+  label_display: '0'
+  provider: core
+visibility: {  }

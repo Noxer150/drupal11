@@ -1,0 +1,22 @@
+uuid: 9b7fcb3d-918a-4761-a764-11b45e1df693
+langcode: sk
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - moja_tema
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: moja_tema_help
+theme: moja_tema
+region: footer_fifth
+weight: -8
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Pomoc
+  label_display: '0'
+  provider: help
+visibility: {  }

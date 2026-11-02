@@ -1,0 +1,22 @@
+uuid: a4790bf8-a662-4a8e-b2cb-d1275aad964c
+langcode: sk
+status: true
+dependencies:
+  config:
+    - node.type.article
+id: node.article.promote
+field_name: promote
+entity_type: node
+bundle: article
+label: 'Zobrazené na titulnej strane'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Zapnúť
+  off_label: Vypnúť
+field_type: boolean

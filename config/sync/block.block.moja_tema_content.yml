@@ -1,0 +1,22 @@
+uuid: caac70b2-f45d-4e17-910f-9a2f8555ac3a
+langcode: sk
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - moja_tema
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: moja_tema_content
+theme: moja_tema
+region: content
+weight: -5
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Hlavný obsah stránky'
+  label_display: '0'
+  provider: system
+visibility: {  }

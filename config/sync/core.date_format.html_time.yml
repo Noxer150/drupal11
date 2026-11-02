@@ -1,0 +1,10 @@
+uuid: 0d7f777b-f2db-4db6-a635-5d1c9dcff9f9
+langcode: sk
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: M7yqicYkU36hRy5p9drAaGBBihhUD1OyujFrAaQ93ZE
+id: html_time
+label: 'HTML Time'
+locked: true
+pattern: 'H:i:s'

@@ -1,0 +1,23 @@
+uuid: 1ab5b515-d915-456d-a892-cba2a23371fa
+langcode: sk
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - moja_tema
+_core:
+  default_config_hash: pbbed0hdqGDF-_QWVVTWRAwgDIotFuAvWH5mWUZu0fA
+id: moja_tema_search_form_wide
+theme: moja_tema
+region: header
+weight: -6
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Vyhľadávací formulár (široký)'
+  label_display: '0'
+  provider: search
+  page_id: null
+visibility: {  }

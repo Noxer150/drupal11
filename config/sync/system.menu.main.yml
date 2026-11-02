@@ -1,0 +1,10 @@
+uuid: dba39006-983e-4a40-9a20-0266fd3b501e
+langcode: sk
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Q2Ra3jfoIVk0f3SjxJX61byRQFVBAbpzYDQOiY-kno8
+id: main
+label: 'Main navigation'
+description: 'Site section links'
+locked: true
